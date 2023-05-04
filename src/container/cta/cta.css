@@ -1,0 +1,44 @@
+.product__cta-main {
+    width: 100%;
+    background: #02897A;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.product__cta-main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product__cta-main_content h1 {
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    margin: 3rem 0;
+}
+
+@media screen and (max-width: 850px) {
+    .product__cta-main {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .product__cta-main_content h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .product__cta-main-image{
+        width: 400px;
+    }
+    
+    .product__cta-main-image img {
+        width: 100%;
+    }
+}

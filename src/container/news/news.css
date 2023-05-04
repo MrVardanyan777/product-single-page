@@ -1,0 +1,24 @@
+.product__news-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.product__news-heading h1 {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.product__news-heading p {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0.5rem 0;
+}

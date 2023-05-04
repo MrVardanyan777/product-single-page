@@ -1,0 +1,9 @@
+export {default as Header} from './header/Header';
+export {default as Features} from './features/Features';
+export {default as Performance} from './performance/Performance';
+export {default as Easyprocess} from './easyprocess/Easyprocess';
+export {default as News} from './news/News'; 
+export {default as Pricing} from './pricing/Pricing';
+export {default as Review} from './review/Review';
+export {default as CTA} from './cta/CTA';
+export {default as Footer} from './footer/Footer';

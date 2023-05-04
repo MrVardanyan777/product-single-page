@@ -1,0 +1,28 @@
+.product__pricing-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.product__pricing-heading h1 {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.product__pricing-heading p {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.product__pricing-cardList { 
+    margin: 3rem 0 0 4rem;
+}

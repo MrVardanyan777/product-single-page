@@ -1,0 +1,121 @@
+.product__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.product__footer-image {
+    display: flex;
+    align-items: center;
+}
+
+.product__footer-image h1 {
+    margin-left: 1rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: var(--text-color);
+    user-select: none;
+    cursor: pointer;
+}
+
+.product__footer-socialMedia {
+    margin: 1rem 0;
+}
+
+.product__footer-links {
+    display: flex;
+}
+
+.product__footer-links h3 {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.product__footer-links p {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 0.5rem;
+}
+
+
+.product__footer-links_groupA {
+    margin-right: 4rem;
+}
+
+.product__footer-form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product__footer-form h2 {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.product__footer-form input {
+    width: 320px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+    font-family: var(--font-family);
+    padding: 0 0.5rem;
+}
+
+.product__footer-form input:focus {
+    outline: none;
+    border: 2px solid #BCD0E5;
+}
+
+.product__footer-underfooter {
+    margin-top: 2.5rem;
+}
+
+.product__footer-underfooter p {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        flex-direction: column;
+    }
+    .product__footer-links {
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .product__footer-links {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+}

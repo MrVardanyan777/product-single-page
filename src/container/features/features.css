@@ -1,0 +1,36 @@
+.product__features-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.product__features-heading h1 {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    width: 500px;
+}
+
+.product__features-cardList{ 
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .product__features-heading h1 {
+        font-size: 25px;
+        line-height: 1.7;
+    }
+ }
+
+
+.product__features-btnbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}

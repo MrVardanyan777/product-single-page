@@ -1,0 +1,9 @@
+export {default as Navbar} from './navbar/Navbar';
+export {default as Button} from './button/Button';
+export {default as Featurecard} from './featurecard/Featurecard';
+export {default as Opinioncard} from './opinioncard/Opinioncard';
+export {default as Newscard} from './newscard/Newscard';
+export {default as Newslist} from './newslist/Newslist';
+export {default as Princingcard} from './pricingcard/Princingcard';
+export {default as Reviewlist} from './reviewlist/Reviewlist';
+export {default as Reviewcard} from './reviewcard/Reviewcard';

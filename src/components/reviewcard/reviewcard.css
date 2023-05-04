@@ -1,0 +1,55 @@
+.product__reviewcard {
+    width: 350px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.product__reviewcard p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.product__reviewcard-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.product__reviewcard-user_info {
+    margin: 0 2rem;
+}
+
+.product__reviewcard-user_info h3 {
+    font-family: var(--font-family);
+    color: #02897A;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .product__reviewcard {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .product__reviewcard {
+        width: 300px;
+    }   
+}
+
+@media screen and (max-width: 1200px) {
+    .product__reviewcard {
+        width: 300px;
+    }   
+}
